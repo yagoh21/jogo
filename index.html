@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>world mario game</title>
+</head>
+<body>
+
+    <audio autoplay loop id="audioesperando">
+        <source src="./audios/audioEsperandoIniciarJogo.mp3" type="audio/mp3">
+    </audio>
+    <audio loop id="audiojogoinicio">
+        <source src="./audios/audioMissaoNormal.mp3" type="audio/mp3">
+    </audio>
+    <audio id="audiopulo">
+        <source src="./audios/audioPulo.wav" type="audio/wav">
+    </audio>
+    <audio id="audioMoeda">
+        <source src="./audios/audioMoeda.wav" type="audio/wav">
+    </audio>
+    <audio id="audioVidaExtra">
+        <source src="./audios/audioVidaExtra.wav" type="audio/wav">
+    </audio>
+    <audio id="audioPerdeuVida">
+        <source src="./audios/audioPerdeuVida.mp3" type="audio/mp3">
+    </audio>
+    <audio id="audioGameOver">
+        <source src="./audios/audioGameOver.mp3" type="audio/mp3">
+    </audio>
+    
+
+
+
+    <div id="ceu">
+
+    <div id="cenario">
+    <div id="menudojogo"></div>
+    <div id="tempo">400</div>
+    <div id="vidas">5</div>
+    <div id="moedas">0</div>
+    <div id="pontos">0</div>
+    <div id="bloco"></div>
+        <div id="personagem"></div>
+        <div id="inimigo"></div>
+        <button type="button" id="iniciar">Iniciar Jogo</button>
+        <button type="button" id="reiniciar">Reiniciar Jogo</button>
+        
+
+
+</div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
